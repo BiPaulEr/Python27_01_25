@@ -4,7 +4,7 @@ print(next(i))
 print(next(i))
 print(next(i))
 
-next(i) #erreur
+next(i) #StopIteration
 
 for carrac in i:
     print(carrac)

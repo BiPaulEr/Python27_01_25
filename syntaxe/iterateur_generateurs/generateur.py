@@ -12,7 +12,7 @@ print(next(gen))
 print(next(gen))
 
 
-next(gen) # erreur """
+next(gen) # erreur StopIteration """
 
 for i in generateur(10):
     print(i)
