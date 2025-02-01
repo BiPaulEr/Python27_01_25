@@ -6,6 +6,7 @@ absolute_path = os.path.join(os.path.dirname(__file__), "database.db")
 connection = sqlite3.connect(absolute_path)
 
 cursor = connection.cursor()
+
 """
 cursor.execute(" CREATE TABLE employees (
                 id INTEGER PRIMARY KEY,
